@@ -1,7 +1,27 @@
-.pp {
+body-section, .about {
   text-align: center;
-  -webkit-text-decoration: 0;
-          text-decoration: 0;
+}
+
+.about {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.about table {
+  border-spacing: 0.3rem;
+}
+
+.about tbody thead th {
+  font-weight: bold;
+}
+
+.about p {
+  font-size: 14pt;
+}
+
+.about h3 {
+  text-indent: 14pt;
+  font-weight: bold;
 }
 
 .jumbotron {

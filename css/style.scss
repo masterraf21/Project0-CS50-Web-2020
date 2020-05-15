@@ -1,16 +1,40 @@
 $theme : #4cc8c8;
+$margin1 : 70px;
+$margin-top : 100px;
+$margin2 : 200px;
 
-.pp {
+body-section {
     text-align: center;
-    text-decoration: red($color: #000000);
+
 }
 
-// .row>div {
-    //     text-align: center;
-    //     padding: 20px;
-    //     background: $theme;
-    //     border: 1px solid;
-    // }
+.about {
+    @extend body-section;
+    margin-top: $margin-top;
+    margin-bottom: $margin2;
+
+    table {
+        border-spacing: 0.3rem;
+
+    }
+
+    tbody thead th {
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 14pt;
+    }
+
+    h3 {
+        text-indent: 14pt;
+        font-weight: bold;
+
+    }
+
+
+
+}
 
 .jumbotron {
 
