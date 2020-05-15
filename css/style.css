@@ -1,0 +1,16 @@
+.pp {
+  text-align: center;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background: #000064;
+  /* old browsers fallback color*/
+  background: -webkit-gradient(linear, left top, right top, from(#1BADD8), to(#00003E));
+  background: linear-gradient(to right, #1BADD8, #00003E);
+  border-radius: 0.3rem;
+}
+/*# sourceMappingURL=style.css.map */
