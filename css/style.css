@@ -24,13 +24,80 @@ body-section, .about {
   font-weight: bold;
 }
 
-.jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background: #000064;
-  /* old browsers fallback color*/
-  background: -webkit-gradient(linear, left top, right top, from(#1BADD8), to(#00003E));
-  background: linear-gradient(to right, #1BADD8, #00003E);
-  border-radius: 0.3rem;
+.form-register {
+  width: 60%;
+  margin: 60px auto;
+  background: #efefef;
+  padding: 60px 120px 80px 120px;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+label {
+  display: block;
+  position: relative;
+  margin: 40px 0px;
+}
+
+.label-text {
+  position: absolute;
+  top: -1.6em;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color: #787878;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.line {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #8bc34a;
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+}
+
+.line-box {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: #bcbcbc;
+}
+
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: gainsboro;
+  font-weight: bold;
+  color: #787878;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.contact-form {
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
 }
 /*# sourceMappingURL=style.css.map */
